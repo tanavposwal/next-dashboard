@@ -1,13 +1,13 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import { RocketLaunchIcon } from '@heroicons/react/24/solid';
 import { lusitana } from '@/app/ui/fonts';
 
 export default function AcmeLogo() {
   return (
     <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-current`}
+      className={`${lusitana.className} flex  items-center md:text-current md:justify-start justify-between h-fit w-full`}
     >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+      <span className='md:w-8 w-6 mr-3'><RocketLaunchIcon /></span>
+      <p className="text-3xl">Acme</p>
     </div>
   );
 }
