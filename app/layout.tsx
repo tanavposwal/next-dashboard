@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <NextTopLoader showSpinner={true} />
+        <NextTopLoader showSpinner={false} color='rgb(37,137,254)' />
         {children}
       </body>
     </html>
